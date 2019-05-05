@@ -1,0 +1,7 @@
+| steps to reproduce                 | what i expected to see | what I saw instead       |
+|------------------------------------+------------------------+--------------------------|
+| (decrypt (encrypt "he" key1) key2) | this expression should | error: the object  613   |
+| ;; where key1 is:                  | have evaluated to:     | passed as an argument to |
+| ;; (make-public-key 41 43)         | "he"                   | ascii->char              |
+| ;; where key2 is:                  |                        |                          |
+| ;; (make-private-key 41 43)        |                        |                          |

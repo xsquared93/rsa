@@ -1,0 +1,33 @@
+OVERVIEW
+This is an implementation of the rsa algorithm; currently, it can only encrypt strings of length
+1. I will be working to solve this issue.
+
+BUILT WITH
+
+Emacs
+mit-scheme
+
+
+HOW TO RUN THE PROGRAM
+
+Mac
+
+install homebrew via the command line;
+install mit-scheme using homebrew; like this: brew install mit-scheme
+install emacs using homebrew; like this: brew cask install emacs
+
+Once you install mit-scheme and emacs you should be able to invoke mit-scheme in emacs
+with the command M-x run-scheme. If you can't go to the terminal and type `which mit-scheme`.
+`which mit-scheme` will give you the location where mit-scheme was stored; lets call this
+location E.
+   (setq scheme-program-name "E")
+Example: 
+If I type `which mit-scheme` in my terminal I get: /usr/local/bin/mit-scheme.
+I then go to my emacs file and type:
+   (setq scheme-program-name "/usr/local/bin/mit-scheme")
+
+This should invoke mit-scheme in Emacs.
+
+Once you have done you can run the program by invoking mit-scheme and loading the file; like so
+   (load "file.scm").
+
