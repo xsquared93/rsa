@@ -1,8 +1,7 @@
 OVERVIEW
 
 
-This is an implementation of the rsa algorithm; currently, it can only encrypt strings of length
-1. I will be working to solve this issue.
+This is an implementation of the rsa algorithm; currently, it can only encrypt strings of length 1. I will be working to solve this issue.
 
 BUILT WITH
 
